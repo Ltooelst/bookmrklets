@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>‌</title>
+    <link rel="icon" type="image/x-icon" href="icons/a.ico">
+  </head>
+  <body>
+    <script>document.addEventListener('contextmenu', event => event.preventDefault());document.onkeydown = (e) => {if(e.key==123){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'I'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'C'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'J'){e.preventDefault();}if(e.ctrlKey && e.key == 'U'){e.preventDefault();}};</script>
+<a onclick="MyWindow1()">[🔎] Windowed</a>
+  <script>
+function MyWindow1() {
+  var myWindow1 = window.open('', 'myWindow1', 'scrollbars=1,height='+screen.availHeight+',width='+screen.availWidth);
+  myWindow1.document.write('<!DOCTYPE html>\n\
+<title>Google</title>\n\
+<p><iframe src="https://harmonious-brigadeiros-09b6fe.netlify.app/home" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%">\n\
+<script>\n\
+<\x2fscript>');
+}
+</script>
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Baloo&amp;display=swap&#39;);
+body{
+  margin: 0;
+  background: lightsteelblue;
+  cursor:url(cursors/cursor.png) 0 0,default;
+  overflow: hidden;
+}
+a
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: Baloo;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+  animation: animate 8s linear infinite;
+  cursor: pointer;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  flex-wrap: wrap;
+  cursor:url(cursors/pointer.png) 19 0, pointer;
+}
+a:hover
+{
+  animation: animate 8s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    background-position: 0%;
+  }
+  100%
+  {
+    background-position: 400%;
+  }
+}
+a:before
+{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+}
+a:hover:before
+{
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 8s linear infinite;
+}
+</style>
+</body>
+</html>
