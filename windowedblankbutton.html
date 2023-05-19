@@ -7,7 +7,7 @@
   </head>
   <body>
     <script>document.addEventListener('contextmenu', event => event.preventDefault());document.onkeydown = (e) => {if(e.key==123){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'I'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'C'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'J'){e.preventDefault();}if(e.ctrlKey && e.key == 'U'){e.preventDefault();}};</script>
-<a onclick="MyWindow1()">[🔎] Windowed</a>
+<a onclick="MyWindow1()" tabindex="-1">[🔎] Windowed</a>
   <script>
 function MyWindow1() {
   var myWindow1 = window.open('', 'myWindow1', 'scrollbars=1,height='+screen.availHeight+',width='+screen.availWidth);
