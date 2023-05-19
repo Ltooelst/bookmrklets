@@ -1,7 +1,7 @@
 <html>
 <body>
     <script>document.addEventListener('contextmenu', event => event.preventDefault());document.onkeydown = (e) => {if(e.key==123){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'I'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'C'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'J'){e.preventDefault();}if(e.ctrlKey && e.key == 'U'){e.preventDefault();}};</script>
-<button id="play-btn" onclick="openGoogle()">Normal</button>
+<button id="play-btn" onclick="openGoogle()" tabindex="-1">Normal</button>
 <script>
     function openGoogle() {
       var win = window.open('home', '_blank');
