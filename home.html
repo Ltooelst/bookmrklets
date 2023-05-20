@@ -28,7 +28,6 @@
           document.execCommand('copy');
           inputElement.parentNode.removeChild(inputElement);
         }
-
         document.querySelector('#copy-text-btn').onclick = function() {
           copyText(document.querySelector('#text'));
         }
@@ -63,7 +62,6 @@
           document.execCommand('copy');
           inputElement.parentNode.removeChild(inputElement);
         }
-
         document.querySelector('#copy-text-btn4').onclick = function() {
           copyText(document.querySelector('#text4'));
         }
@@ -98,7 +96,6 @@
           document.execCommand('copy');
           inputElement.parentNode.removeChild(inputElement);
         }
-
         document.querySelector('#copy-text-btn6').onclick = function() {
           copyText(document.querySelector('#text6'));
         }
@@ -139,7 +136,6 @@
           document.execCommand('copy');
           inputElement.parentNode.removeChild(inputElement);
         }
-
         document.querySelector('#copy-text-btn2').onclick = function() {
           copyText(document.querySelector('#text2'));
         }
@@ -166,7 +162,6 @@
           document.execCommand('copy');
           inputElement.parentNode.removeChild(inputElement);
         }
-
         document.querySelector('#copy-text-btn5').onclick = function() {
           copyText(document.querySelector('#text5'));
         }
@@ -219,9 +214,48 @@
           document.execCommand('copy');
           inputElement.parentNode.removeChild(inputElement);
         }
-
         document.querySelector('#copy-text-btn3').onclick = function() {
           copyText(document.querySelector('#text3'));
+        }
+      </script>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/f.png">
+    <h2 style="top:0">X-Ray Goggles</h2>
+    <p class="Apps_bdesc__939Ky">Viewable And Editable <i>Page Source</i> Just Like Inspect Element</p>
+      <div class="Apps_app__T03gY">
+        <button id="openButton4" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0">Execute</button>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openButton4').addEventListener('click', function() {
+              window.location.assign('javascript:var _0x5093=["\x73\x63\x72\x69\x70\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x78\x2D\x72\x61\x79\x2D\x67\x6F\x67\x67\x6C\x65\x73\x2E\x6D\x6F\x75\x73\x65\x2E\x6F\x72\x67\x2F\x77\x65\x62\x78\x72\x61\x79\x2E\x6A\x73","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x77\x65\x62\x78\x72\x61\x79","\x64\x61\x74\x61\x2D\x6C\x61\x6E\x67","\x65\x6E\x2D\x55\x53","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x64\x61\x74\x61\x2D\x62\x61\x73\x65\x75\x72\x69","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x78\x2D\x72\x61\x79\x2D\x67\x6F\x67\x67\x6C\x65\x73\x2E\x6D\x6F\x75\x73\x65\x2E\x6F\x72\x67","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79"];(function(){var _0x1ad4x1=document[_0x5093[1]](_0x5093[0]);_0x1ad4x1[_0x5093[2]]= _0x5093[3];_0x1ad4x1[_0x5093[4]]= _0x5093[5];_0x1ad4x1[_0x5093[8]](_0x5093[6],_0x5093[7]);_0x1ad4x1[_0x5093[8]](_0x5093[9],_0x5093[10]);document[_0x5093[12]][_0x5093[11]](_0x1ad4x1)}())');
+            });
+          });
+        </script>
+        <script>
+        const refreshButton = document.querySelector('.reload');
+        refreshButton.addEventListener('click', function() {
+        location.reload();
+        });
+        </script>
+      <button id="copy-text-btn7" tabindex="-1">Copy</button>
+      <p id="text7" hidden>javascript:(function () {var script=document.createElement('script');script.src='https://x-ray-goggles.mouse.org/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://x-ray-goggles.mouse.org');document.body.appendChild(script);}())</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn7').onclick = function() {
+          copyText(document.querySelector('#text7'));
         }
       </script>
     </div>
