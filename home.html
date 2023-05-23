@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>‌</title>
+  <link rel="icon" type="image/x-icon" href="icons/a.ico">
+  <link href="a.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="butter">
+  <div class="card">
+    <img src="images/b.png">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">about:blank</h2>
+    <p style="color:#FFFFFF"><i style="color:transparent;margin-bottom:2px">iii</i>Hides <i>Screen</i> From Dyknow<i style="color:transparent;margin-bottom:2px">iii</i></p><p onclick="MyWindow1()" style="color:blue; text-decoration: underline; cursor: url(cursors/pointer.png) 18 0, pointer; width: 47px; margin-bottom: 5px; overflow: hidden" onclick="window.location.href='proof'">Proof</p>
+    <script>
+      function MyWindow1() {
+  var myWindow1 = window.open('', 'myWindow1', 'scrollbars=1,height=169,width=271');
+  myWindow1.document.write('<!DOCTYPE html>\n\
+  <title>Google</title>\n\
+  <p><iframe src="images/b1.jpg" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%">\n\
+  <script>\n\
+  <\x2fscript>');
+}
+    </script>
+      <button id="copy-text-btn" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:78px">Copy</button>
+      <p id="text" hidden>javascript:(function(){var url = prompt("Enter website url for about:blank proxy"); var win = window.open(); var iframe = win.document.createElement(%27iframe%27); iframe.style="position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;"; if(url.includes('https://') || url.includes("http://")) {iframe.src = url;}else{iframe.src = "http://" + url;} win.document.body.appendChild(iframe);})();</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn').onclick = function() {
+          copyText(document.querySelector('#text'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/d.png">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">Anti-Tab Close</h2>
+    <p style="color:#FFFFFF;margin-bottom:2px">Prevents <i>Dyknow</i> From Closing Displayed Tabs</p>
+        <button id="openButton2" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-top:3px">Execute</button>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openButton2').addEventListener('click', function() {
+              window.location.assign('javascript:(function () {window.onbeforeunload = function () { return 1;};})()');
+            });
+          });
+        </script>
+      <button id="copy-text-btn4" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:10px">Copy</button>
+      <p id="text4" hidden>javascript:(function () {window.onbeforeunload = function () { return 1;};})()</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn4').onclick = function() {
+          copyText(document.querySelector('#text4'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/autoclicker.gif">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">Auto Clicker</h2>
+    <p style="color:#FFFFFF;margin-bottom:2px">Auto <i>Clicks</i> An Optional Amount Of CPS</p>
+        <button id="openButton3" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-top:3px">Execute</button>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openButton3').addEventListener('click', function() {
+              window.location.assign('javascript:(function(x,y){if(!window.click){window.click=!0,document.body.style.cursor=\'crosshair\';var cps=prompt(\'Autoclicker CPS: (Under 200 recommended)\');if(!cps||isNaN(cps)?(alert(\'You entered something wrong. Try running the script again.\'),end()):alert(\'Autoclicker activated at \'+cps+\' CPS! Press [ctrl+e] to stop.\'),addEventListener(\'mousemove\',e=>{x=e.clientX,y=e.clientY}),addEventListener(\'keydown\',e=>{\'e\'===e.key&&e.ctrlKey&&(alert(\'Autoclicker deactivated! Click the execute button again to reactivate!\'),end())}),window.click)var int=setInterval(function(){var e=document.elementFromPoint(x,y);e&&e.click()},1e3/cps);function end(){clearInterval(int),window.click=!1,document.body.style.cursor=\'default\'}}})();');
+            });
+          });
+        </script>
+      <button id="copy-text-btn6" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:12px">Copy</button>
+      <p id="text6" hidden>javascript:(function(x,y){if(!window.click){window.click=true;document.body.style.cursor='crosshair';var cps=prompt('Autoclicker CPS: (Under 200 recommended)');if(!cps||isNaN(cps)){alert('You entered something wrong. Try running the script again.');end()}else{alert('Autoclicker activated at '+cps+' CPS! Press [ctrl+e] to stop.');addEventListener('mousemove',e=>{x=e.clientX,y=e.clientY});addEventListener('keydown',e=>{if(e.key==='e'&&e.ctrlKey){alert('Autoclicker deactivated! Click the bookmark again to reactivate!');end()}});if(window.click){var int=setInterval(function(){var el=document.elementFromPoint(x,y);if(el)el.click()},1000/cps);function end(){clearInterval(int);window.click=false;document.body.style.cursor='default'}}}}})();</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn6').onclick = function() {
+          copyText(document.querySelector('#text6'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/c.png">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">Edit Page</h2>
+    <p style="color:#FFFFFF;margin-bottom:2px">Edits <i>Anything</i> Of Your Choice (<b class="reload" style="color:blue; text-decoration: underline; cursor: url(cursors/pointer.png) 18 0, pointer;">Refresh</b> Page To Clear Edits)</p>
+        <button id="openButton1" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-top:3px">Execute</button>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openButton1').addEventListener('click', function() {
+              window.location.assign('javascript:var _0xd53f=["\x63\x6F\x6E\x74\x65\x6E\x74\x45\x64\x69\x74\x61\x62\x6C\x65","\x62\x6F\x64\x79","\x74\x72\x75\x65","\x64\x65\x73\x69\x67\x6E\x4D\x6F\x64\x65","\x6F\x6E"];document[_0xd53f[1]][_0xd53f[0]]= _0xd53f[2];document[_0xd53f[3]]= _0xd53f[4];void(0)');
+            });
+          });
+        </script>
+        <script>
+        const refreshButton = document.querySelector('.reload');
+        refreshButton.addEventListener('click', function() {
+        location.reload();
+        });
+        </script>
+      <button id="copy-text-btn2" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:12px">Copy</button>
+      <p id="text2" hidden>javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn2').onclick = function() {
+          copyText(document.querySelector('#text2'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/e.png">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">Edpuzzle GUI</h2>
+    <p style="color:#FFFFFF;margin-bottom:5px">A <i>GUI</i> For Edpuzzle That Includes External Features</p>
+      <button id="copy-text-btn5" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:78px">Copy</button>
+      <p id="text5" hidden>javascript: fetch("https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js").then(r => r.text()).then(r => eval(r))</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn5').onclick = function() {
+          copyText(document.querySelector('#text5'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/a.png">
+    <h2 style="top:0;color:#FFFFFF;;margin-top:1px">History Flooder</h2>
+    <p style="color:#FFFFFF;margin-bottom:5px">Floods <i>History</i> With An Optional Amount</p>
+      <button id="copy-text-btn1" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:78px">Copy</button>
+      <p id="text1" hidden>javascript:(e=>{var num=prompt('How Times Do You Want This Page To Show Up In Your History?%27);done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert(%27Flooding Successful! %27+window.location.href+%27 Is Now In Your History %27+num+(num==1?%27 Time.%27:%27 Times. %27))}})()</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn1').onclick = function() {
+          copyText(document.querySelector('#text1'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/g.png">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">Piano</h2>
+    <p style="color:#FFFFFF;margin-bottom:2px">Adds A <i>Playable</i> 8-bit Piano At The Bottom Of Your Screen</p>
+        <button id="openButton5" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-top:3px">Execute</button>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openButton5').addEventListener('click', function() {
+              window.location.assign('javascript:var _0xb301=["\x73\x63\x72\x69\x70\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x4B\x72\x61\x7A\x65\x74\x65\x2F\x62\x6F\x6F\x6B\x6D\x61\x72\x6B\x6C\x65\x74\x73\x2F\x6D\x61\x73\x74\x65\x72\x2F\x70\x69\x61\x6E\x6F\x2E\x6A\x73"];(function(){var _0xb168x1=document[_0xb301[3]][_0xb301[2]](document[_0xb301[1]](_0xb301[0]));_0xb168x1[_0xb301[4]]= _0xb301[5]})()');
+            });
+          });
+        </script>
+      <button id="copy-text-btn8" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:12px">Copy</button>
+      <p id="text8" hidden>javascript:(function(){var js=document.body.appendChild(document.createElement('script'));js.src='https://rawgit.com/Krazete/bookmarklets/master/piano.js';})();</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn8').onclick = function() {
+          copyText(document.querySelector('#text8'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/togglepage.gif">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">PortaProxy</h2>
+    <p style="color:#FFFFFF;margin-bottom:5px">Toggle <i>Any</i> ‌U‌n‌b‌l‌o‌c‌k‌e‌d‌ Page That Is IFrame-Accessible</p>
+      <button id="copy-text-btn3" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:78px">Copy</button>
+      <p id="text3" hidden>javascript:var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.createTemplateTagFirstArg=function(a){return a.raw=a};$jscomp.createTemplateTagFirstArgWithRaw=function(a,b){a.raw=b;return a};var frame=document.createElement("iframe");var url=prompt("What URL do you want to visit?");if(!url.startsWith("http://")&&!url.startsWith("https://")){url="http://"+url}frame.src=url;var stl=frame.style;stl.position="fixed";stl.left=stl.right=stl.top=stl.bottom=stl.margin=stl.border="0";stl.border="none";stl.width=stl.height="100%";stl.setProperty("z-index","9999");stl.setProperty("background-color","#FFFFFF");document.body.appendChild(frame);var btn=document.createElement("button");btn.addEventListener("click",function(){frame.style.display=frame.style.display=="none"?"block":"none"});btn.style="position: fixed;\nbottom: 0;\nright: 0;\nmargin: 20px;\nz-index: 99999;\nborder: none;\nfont-size: 14px;\npadding: 3px;\n";btn.innerHTML="Toggle";document.body.appendChild(btn);void 0;</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn3').onclick = function() {
+          copyText(document.querySelector('#text3'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/h.png">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">Snake</h2>
+    <p style="color:#FFFFFF;margin-bottom:2px">Enables The <i>Ability</i> To Play Snake With A Click Of A Button</p>
+        <button id="openButton6" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-top:3px">Execute</button>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openButton6').addEventListener('click', function() {
+              window.location.assign('javascript:var _0x58c6=["\x70","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x73\x74\x79\x6C\x65","\x66\x69\x78\x65\x64","\x6C\x65\x66\x74","\x74\x6F\x70","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x23\x46\x46\x46","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x70\x3E\x3C\x2F\x70\x3E\x3C\x63\x61\x6E\x76\x61\x73\x3E","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x77\x69\x64\x74\x68","\x68\x65\x69\x67\x68\x74","\x32\x64","\x67\x65\x74\x43\x6F\x6E\x74\x65\x78\x74","\x72\x61\x6E\x64\x6F\x6D","\x47\x61\x6D\x65\x20\x4F\x76\x65\x72","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x50\x72\x65\x73\x73\x20\x50","\x66\x69\x6C\x6C\x53\x74\x79\x6C\x65","\x68\x73\x6C\x28","\x2C","\x25\x2C","\x25\x29","\x66\x69\x6C\x6C\x52\x65\x63\x74","\x6B\x65\x79\x43\x6F\x64\x65"];for(Q= 64,m= b= Q* Q,a= [P= l= u= d= p= S= w= 0],u= 89,f= (h= j= t= (b+ Q)/ 2)- 1,(B= (D= document)[_0x58c6[3]])[_0x58c6[2]](x= D[_0x58c6[1]](_0x58c6[0])),(X= x[_0x58c6[5]])[_0x58c6[4]]= _0x58c6[6],X[_0x58c6[7]]= X[_0x58c6[8]]= 0,X[_0x58c6[9]]= _0x58c6[10],x[_0x58c6[11]]= _0x58c6[12],v= (s= x[_0x58c6[13]])[0],(s= s[1])[_0x58c6[14]]= s[_0x58c6[15]]= Q* 5,c= s[_0x58c6[17]](_0x58c6[16]),onkeydown= onblur= F= function(_0xa4edx1,_0xa4edx2){_0xa4edx2?a[f]?(w+= m,f= Math[_0x58c6[18]](l+= 8)* (R= Q- 2)* R| (u= 0),F(f+= Q+ 1+ (f/ R| 0)* 2,_0xa4edx2)):F(f):_0xa4edx1< 0?(l?--l:(y= t,t= a[t]- 2,F(y)),S+= (w*= 0.8)/ 4,m= 999/ (u++ + 10),a[h+= [-1,-Q,1,Q][d= p]]?B[_0x58c6[20]](x,alert(_0x58c6[19])):(F(h),F(_0xa4edx1,j= h),v[_0x58c6[11]]= P?(setTimeout(F,50,_0xa4edx1,0),S| 0):_0x58c6[21])):-_0xa4edx1?(y= (a[_0xa4edx1]= _0xa4edx1< Q| _0xa4edx1>= Q* Q- Q|  !(_0xa4edx1% Q)| _0xa4edx1% Q== Q- 1| (_0xa4edx1== h)* 2)+ (_0xa4edx1== f),_0xa4edx1== h&& (a[j]= 2+ h),c[_0x58c6[22]]= _0x58c6[23]+ !a[_0xa4edx1]* 99+ _0x58c6[24]+ m* 2+ _0x58c6[25]+ y* 50+ _0x58c6[26],c[_0x58c6[27]](_0xa4edx1% Q* 5,(_0xa4edx1/ Q| 0)* 5,5,5)):isNaN(y= _0xa4edx1[_0x58c6[28]]- 37)| y== 43?(P= y&&  !P)&& F(-1):p= !P| y&  -4 |  !(y^ 2^ d)?p:y;return !1};--b;F(b)){;};void(F(-1))');
+            });
+          });
+        </script>
+        <script>
+        const refreshButton = document.querySelector('.reload');
+        refreshButton.addEventListener('click', function() {
+        location.reload();
+        });
+        </script>
+      <button id="copy-text-btn9" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:12px">Copy</button>
+      <p id="text9" hidden>javascript:var _0x58c6=["\x70","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x73\x74\x79\x6C\x65","\x66\x69\x78\x65\x64","\x6C\x65\x66\x74","\x74\x6F\x70","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x23\x46\x46\x46","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x70\x3E\x3C\x2F\x70\x3E\x3C\x63\x61\x6E\x76\x61\x73\x3E","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x77\x69\x64\x74\x68","\x68\x65\x69\x67\x68\x74","\x32\x64","\x67\x65\x74\x43\x6F\x6E\x74\x65\x78\x74","\x72\x61\x6E\x64\x6F\x6D","\x47\x61\x6D\x65\x20\x4F\x76\x65\x72","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x50\x72\x65\x73\x73\x20\x50","\x66\x69\x6C\x6C\x53\x74\x79\x6C\x65","\x68\x73\x6C\x28","\x2C","\x25\x2C","\x25\x29","\x66\x69\x6C\x6C\x52\x65\x63\x74","\x6B\x65\x79\x43\x6F\x64\x65"];for(Q= 64,m= b= Q* Q,a= [P= l= u= d= p= S= w= 0],u= 89,f= (h= j= t= (b+ Q)/ 2)- 1,(B= (D= document)[_0x58c6[3]])[_0x58c6[2]](x= D[_0x58c6[1]](_0x58c6[0])),(X= x[_0x58c6[5]])[_0x58c6[4]]= _0x58c6[6],X[_0x58c6[7]]= X[_0x58c6[8]]= 0,X[_0x58c6[9]]= _0x58c6[10],x[_0x58c6[11]]= _0x58c6[12],v= (s= x[_0x58c6[13]])[0],(s= s[1])[_0x58c6[14]]= s[_0x58c6[15]]= Q* 5,c= s[_0x58c6[17]](_0x58c6[16]),onkeydown= onblur= F= function(_0xa4edx1,_0xa4edx2){_0xa4edx2?a[f]?(w+= m,f= Math[_0x58c6[18]](l+= 8)* (R= Q- 2)* R| (u= 0),F(f+= Q+ 1+ (f/ R| 0)* 2,_0xa4edx2)):F(f):_0xa4edx1< 0?(l?--l:(y= t,t= a[t]- 2,F(y)),S+= (w*= 0.8)/ 4,m= 999/ (u++ + 10),a[h+= [-1,-Q,1,Q][d= p]]?B[_0x58c6[20]](x,alert(_0x58c6[19])):(F(h),F(_0xa4edx1,j= h),v[_0x58c6[11]]= P?(setTimeout(F,50,_0xa4edx1,0),S| 0):_0x58c6[21])):-_0xa4edx1?(y= (a[_0xa4edx1]= _0xa4edx1< Q| _0xa4edx1>= Q* Q- Q|  !(_0xa4edx1% Q)| _0xa4edx1% Q== Q- 1| (_0xa4edx1== h)* 2)+ (_0xa4edx1== f),_0xa4edx1== h&& (a[j]= 2+ h),c[_0x58c6[22]]= _0x58c6[23]+ !a[_0xa4edx1]* 99+ _0x58c6[24]+ m* 2+ _0x58c6[25]+ y* 50+ _0x58c6[26],c[_0x58c6[27]](_0xa4edx1% Q* 5,(_0xa4edx1/ Q| 0)* 5,5,5)):isNaN(y= _0xa4edx1[_0x58c6[28]]- 37)| y== 43?(P= y&&  !P)&& F(-1):p= !P| y&  -4 |  !(y^ 2^ d)?p:y;return !1};--b;F(b)){;};void(F(-1))</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn9').onclick = function() {
+          copyText(document.querySelector('#text9'));
+        }
+      </script>
+  </div>
+  <div class="card">
+    <img src="images/f.png">
+    <h2 style="top:0;color:#FFFFFF;margin-top:1px">X-Ray Goggles</h2>
+    <p style="color:#FFFFFF;margin-bottom:2px">Viewable And Editable <i>Page Source</i> Just Like Inspect Element</p>
+        <button id="openButton4" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-top:3px">Execute</button>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openButton4').addEventListener('click', function() {
+              window.location.assign('javascript:var _0x5093=["\x73\x63\x72\x69\x70\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x78\x2D\x72\x61\x79\x2D\x67\x6F\x67\x67\x6C\x65\x73\x2E\x6D\x6F\x75\x73\x65\x2E\x6F\x72\x67\x2F\x77\x65\x62\x78\x72\x61\x79\x2E\x6A\x73","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x77\x65\x62\x78\x72\x61\x79","\x64\x61\x74\x61\x2D\x6C\x61\x6E\x67","\x65\x6E\x2D\x55\x53","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x64\x61\x74\x61\x2D\x62\x61\x73\x65\x75\x72\x69","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x78\x2D\x72\x61\x79\x2D\x67\x6F\x67\x67\x6C\x65\x73\x2E\x6D\x6F\x75\x73\x65\x2E\x6F\x72\x67","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79"];(function(){var _0x1ad4x1=document[_0x5093[1]](_0x5093[0]);_0x1ad4x1[_0x5093[2]]= _0x5093[3];_0x1ad4x1[_0x5093[4]]= _0x5093[5];_0x1ad4x1[_0x5093[8]](_0x5093[6],_0x5093[7]);_0x1ad4x1[_0x5093[8]](_0x5093[9],_0x5093[10]);document[_0x5093[12]][_0x5093[11]](_0x1ad4x1)}())');
+            });
+          });
+        </script>
+      <button id="copy-text-btn7" tabindex="-1" style="background:#08080;color:#FFFFFF;border-radius:15px;border:0;margin-bottom:12px">Copy</button>
+      <p id="text7" hidden>javascript:(function () {var script=document.createElement('script');script.src='https://x-ray-goggles.mouse.org/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://x-ray-goggles.mouse.org');document.body.appendChild(script);}())</p>
+      <script>
+        function copyText(htmlElement) {
+          if(!htmlElement) {
+            return;
+          }            
+          let elementText = htmlElement.innerText;
+          let inputElement = document.createElement('input');
+          inputElement.setAttribute('value', elementText);
+          document.body.appendChild(inputElement);
+          inputElement.select();
+          document.execCommand('copy');
+          inputElement.parentNode.removeChild(inputElement);
+        }
+        document.querySelector('#copy-text-btn7').onclick = function() {
+          copyText(document.querySelector('#text7'));
+        }
+      </script>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="butter.js"></script>
+<script>document.addEventListener('contextmenu', event => event.preventDefault());document.onkeydown = (e) => {if(e.key==123){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'I'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'C'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'J'){e.preventDefault();}if(e.ctrlKey && e.key == 'U'){e.preventDefault();}};</script>
+</body>
+</html>

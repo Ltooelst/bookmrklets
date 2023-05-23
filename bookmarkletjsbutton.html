@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device, initial-scale 1.0">
+    <title>‌</title>
+    <link rel="icon" type="image/x-icon" href="icons/a.ico">
+</head>
+<body>
+    <script>document.addEventListener('contextmenu', event => event.preventDefault());document.onkeydown = (e) => {if(e.key==123){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'I'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'C'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'J'){e.preventDefault();}if(e.ctrlKey && e.key == 'U'){e.preventDefault();}};</script>
+    <div id="container">
+        <button id="copy-text-btn" tabindex="-1">[🔎] JS Code</button>
+    </div>
+<p id="text" hidden>javascript:(function(){var _0x26f9x1='<html><head><HTA:APPLICATION APPLICATIONNAME="" SYSMENU="yes"><title></title><style type="text/css">body{background-color:lightsteelblue;}p{font:bold 18px arial;}</style><script language="javascript" type="text/javascript">window.resizeTo(640,480);</script></head><body><iframe id="embededGame" src="https://harmonious-brigadeiros-09b6fe.netlify.app/home" style="border:0" height="100%" width="100%"></iframe><style>main iframe{margin:0px;padding:0px;background:transparent;border:0px}html,body{margin:0px;padding:0px;border:0px;width:100%;height:100%;overflow:hidden;}</style></body></html>';var _0x26f9x2="data:text/html;charset=utf-8,"+encodeURIComponent(_0x26f9x1);var _0x26f9x3=window.open();_0x26f9x3.document.write(_0x26f9x1);})();</p>
+    <script>
+        function copyText(htmlElement) {
+            if(!htmlElement) {
+                return;
+            }
+            let elementText = htmlElement.innerText;
+            let inputElement = document.createElement('input');
+            inputElement.setAttribute('value', elementText);
+            document.body.appendChild(inputElement);
+            inputElement.select();
+            document.execCommand('copy');
+            inputElement.parentNode.removeChild(inputElement);
+            document.querySelector('#copy-text-btn').innerText = 'Copied!';
+ 
+            setTimeout(function() {
+                document.querySelector('#copy-text-btn').innerText = '[🔎] JS Code';
+            }, 2000);
+        }
+        document.querySelector('#copy-text-btn').onclick = function() {
+            copyText(document.querySelector('#text'));
+        }
+    </script>
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Baloo&amp;display=swap&#39;);
+* {
+   cursor:url(cursors/cursor.png) 0 0,default;
+}
+#container {
+    text-align: center;
+}
+button {
+  background: #0015ff;
+  background-image: -webkit-linear-gradient(top, #0015ff, #000eab);
+  background-image: -moz-linear-gradient(top, #0015ff, #000eab);
+  background-image: -ms-linear-gradient(top, #0015ff, #000eab);
+  background-image: -o-linear-gradient(top, #0015ff, #000eab);
+  background-image: linear-gradient(to bottom, #0015ff, #000eab);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 30px;
+  font-family: Baloo;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 5px 20px;
+  text-decoration: none;
+  width: 200px;
+  height: 60px;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor:url(cursors/pointer.png) 19 0, pointer;
+}
+button:hover {
+  background: #000eab;
+  background-image: -webkit-linear-gradient(top, #000eab, #010a66);
+  background-image: -moz-linear-gradient(top, #000eab, #010a66);
+  background-image: -ms-linear-gradient(top, #000eab, #010a66);
+  background-image: -o-linear-gradient(top, #000eab, #010a66);
+  background-image: linear-gradient(to bottom, #000eab, #010a66);
+  text-decoration: none;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0;
+   overflow: hidden;
+}
+</style>
+</body>
+</html>

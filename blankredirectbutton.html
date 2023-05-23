@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>‌</title>
+    <link rel="icon" type="image/x-icon" href="icons/a.ico">
+  </head>
+  <body>
+    <script>document.addEventListener('contextmenu', event => event.preventDefault());document.onkeydown = (e) => {if(e.key==123){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'I'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'C'){e.preventDefault();}if(e.ctrlKey && e.shiftKey && e.key == 'J'){e.preventDefault();}if(e.ctrlKey && e.key == 'U'){e.preventDefault();}};</script>
+    <button onclick="MyWindow1()" tabindex="-1">[🔎] Redirect</button>
+<script>
+function MyWindow1() {
+  var myWindow1 = window.open('about:blank');
+  myWindow1.document.write('<!DOCTYPE html>\n\
+  <html>\n\
+  <head>\n\
+  <title>Student On Task – Please Be On Task</title>\n\
+  </head>\n\
+  <body>\n\
+  <iframe src="home" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>\n\
+  <script>\n\
+  <\x2fscript>\n\
+  </body>\n\
+  </html>');
+}
+</script>
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Baloo&amp;display=swap&#39;);
+* {
+      margin: 0;
+}
+button {
+    font-family: Baloo;
+    width: 200px;
+    height: 60px;
+    background-color: #0000FF;
+    border: none;
+    transition: all 0.5s ease;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    color:#FFFFFF;
+    border-radius:30px;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:url(cursors/pointer.png) 19 0, pointer;
+}
+button:hover {
+    transition: 1.1s ease;
+   background-color: #1F51FF;
+    -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  cursor:url(cursors/cursor.png) 0 0,default;
+}
+</style>
+</body>
+</html>
